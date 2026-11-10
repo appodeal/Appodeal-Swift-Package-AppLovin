@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package", exact: "13.6.4"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package", exact: "13.7.0"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealAppLovinAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealAppLovinAdapter/13.6.4.1/c1548c934237/AppodealAppLovinAdapter.xcframework.zip",
-            checksum: "c1548c934237da963e3018aa403dd895066e8598420cfc0441637703301569dd"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealAppLovinAdapter/13.7.0.0/6300ffa54d04/AppodealAppLovinAdapter.xcframework.zip",
+            checksum: "6300ffa54d04d8de06557a489dfec3a28ee06c755b334dde4b646f73161288ef"
         ),
 
     ]
